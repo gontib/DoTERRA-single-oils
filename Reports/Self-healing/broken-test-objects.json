@@ -1,0 +1,22 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/pageSingleOilsSelectors/nextPage",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027content_footer\u0027]/div/ul/li[4]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/pageSingleOilsSelectors/nextPage_XPATH.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/navigationSelectors/nextPage",
+      "brokenLocatorMethod": "BASIC",
+      "proposedLocator": "//div[@id\u003d\u0027content_footer\u0027]/div/ul/li[4]/a",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/navigationSelectors/nextPage_XPATH.png"
+    }
+  ]
+}
