@@ -30,7 +30,7 @@ class WebUtilities {
 	def openBrowserToDoterra() {
 		WebUI.openBrowser("https://www.doterra.com/US/en/")
 	}
-	
+
 	/**
 	 * Wait for the page to finish loading before proceeding
 	 * @param timeout The length of time to wait
@@ -40,7 +40,7 @@ class WebUtilities {
 		WebUI.waitForPageLoad(timeout)
 		WebUI.waitForJQueryLoad(timeout)
 	}
-	
+
 	/**
 	 * 
 	 * @param locatorDescription Description of the element trying to be found
@@ -64,7 +64,7 @@ class WebUtilities {
 			Actions actions = new Actions(webDriver)
 			actions.moveToElement(element)
 			actions.perform()
-			
+
 			// Check if visible
 			//element = new WebDriverWait(webDriver, Duration.ofSeconds(timeout)).until(ExpectedConditions.visibilityOf(element))
 			if (!element.isDisplayed() {
@@ -73,7 +73,7 @@ class WebUtilities {
 		}
 		return element
 	}
-	
+
 	/**
 	 * Find a child element from its parent
 	 * @param locatorDescription Description of the element trying to be found
@@ -99,7 +99,7 @@ class WebUtilities {
 			println "Failed to find the '#{locatorDescription}' element."
 		}
 	}
-	
+
 	/**
 	 * Find the element using a TestObject
 	 * @param locatorID The locatorID of the element to find

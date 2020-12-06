@@ -37,7 +37,7 @@ class SingleOilsFeatureSteps {
 		AddSingleOilsCart SO = new AddSingleOilsCart()
 		SO.verifyQuantityInCart(oilName, quantity)
 	}
-	
+
 	@After
 	public void close_browser_and_quit_driver() {
 		def WebDriver webDriver = DriverFactory.getWebDriver()

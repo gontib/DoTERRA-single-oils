@@ -50,6 +50,7 @@ def static "singleOils.AddSingleOilsCart.addSingleOil"(
 
 /**
 	 * Verify the quantity of oils in the cart matches the quantity that was added
+	 * @param oilName Name of the single oil to add to the cart
 	 * @param quantity The quantity of the single oil added to the cart
 	 */
 def static "singleOils.AddSingleOilsCart.verifyQuantityInCart"(
